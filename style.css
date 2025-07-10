@@ -633,6 +633,11 @@ margin-bottom: 0.5rem;
   border-radius:25px;
   animation: js 3s;
 }
+.skills-content .left .cpp::before{
+  width: 79%;
+  border-radius:25px;
+  animation: cpp 3s;
+}
 .skills-content .left .py::before{
   width: 81%;
   border-radius:25px;
@@ -689,6 +694,15 @@ margin-bottom: 0.5rem;
   }
   100%{
     width: 80%;
+  }
+}
+
+@keyframes cpp{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 79%;
   }
 }
 

@@ -261,6 +261,7 @@ header {
   align-items: center;
   height: 100%;
   overflow: hidden;
+  margin-bottom:1rem;
 }
 
 .home-image img {

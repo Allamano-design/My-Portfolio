@@ -242,12 +242,14 @@ header {
 /* home section styling */
 .home {
   display: flex;
+  align-items: center;  
+  justify-content: space-between; 
+  flex-wrap: wrap;       
   background: url("finback.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   color: #fff;
   min-height: 500px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .home .max-width {
@@ -268,9 +270,7 @@ header {
 .home-image {
   flex: 1;
   display: flex;
-  justify-content: center;
-  height: 100%;
-  overflow: hidden;
+  justify-content: flex-end; 
 }
 
 .home-image img {
@@ -1187,11 +1187,11 @@ text.percentage {
   .home-image {
     width: 50%;              
     float: right;            
-    margin-left: 60px;          
+    margin-left: 0;          
   }
 
   .home-image img {
-    margin-left: 60px;         
+    margin-left: 0;         
     height: auto;           
   }
 }
@@ -1483,6 +1483,7 @@ text.percentage {
 }
 
 }
+
 
 
 

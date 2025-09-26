@@ -1218,6 +1218,7 @@ text.percentage {
     margin-top: 1.5rem;
     width: 100%;
     height: auto;
+    margin-left:40px;
   }
 
   .home-image img {
@@ -1513,4 +1514,5 @@ text.percentage {
 }
 
 }
+
 

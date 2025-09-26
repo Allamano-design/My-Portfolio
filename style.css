@@ -289,17 +289,17 @@ header {
 /* ✅ Responsive rules */
 @media (max-width: 991px) {
   .home .max-width {
-    flex-direction: column;   /* stack text + image */
-    text-align: center;       /* center text */
+    flex-direction: column;   
+    text-align: center;       
   }
 
   .home-image {
-    margin-top: 20px;         /* add spacing when stacked */
+    margin-top: 20px;        
   }
 
   .home-image img {
-    margin-left: 0;           /* remove desktop margin */
-    max-height: 60vh;         /* slightly smaller on mobile */
+    margin-left: 0;           
+    max-height: 60vh;         
   }
 }
 
@@ -1187,11 +1187,11 @@ text.percentage {
   .home-image {
     width: 50%;              
     float: right;            
-    margin-left: 0;          
+    margin-left: 60px;          
   }
 
   .home-image img {
-    margin-left: 0;         
+    margin-left: 60px;         
     height: auto;           
   }
 }
@@ -1483,6 +1483,7 @@ text.percentage {
 }
 
 }
+
 
 
 

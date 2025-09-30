@@ -242,7 +242,7 @@ header {
 /*home section styling*/
 .home{
   display: flex;
-  background: url("Images/finback.jpg")no-repeat ;
+  background: url("finback.jpg")no-repeat ;
   background-size: cover;
   height: 100vh;
   color: #fff;
@@ -1519,4 +1519,5 @@ text.percentage {
     width: 50%;
   }
 }
+
 }

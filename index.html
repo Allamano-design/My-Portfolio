@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+
+<body>
+<!-- Header / Navbar -->
+<header>
+ <nav class="navbar">
+  <div class="logo"><img src="Images/Nav logo.jpg"></div>
+
+  <!-- Menu Toggle Button (for mobile) -->
+  <div class="menu-button" id="menu-button">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <!-- Main Navigation -->
+  <ul class="nav-menu hideonmobile" id="nav-menu">
+    <li><a href="#home" class="nav-link">Home</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="CV/Allamano's CV.pdf" class="nav-link">Cv</a></li>
+    <li><a href="#services" class="nav-link">Services</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+
+  <!-- Sidebar for small screens -->
+  <ul class="sidebar" id="sidebar">
+    <span class="close-button" id="close-button"><i class="fas fa-times"></i></span>
+    <li><a href="#home" class="nav-link">Home</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#services" class="nav-link">Services</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+    <li><a href="CV/Allamano's CV.pdf" class="nav-link">CV</a></li>
+  </ul>
+</nav>
+
+
+</header>
+<!--Home Section-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">Hello, my name is</div>
+         <div class="text-2">Allamano Kinyahwe</div>
+          <div class="text-3">And I'm a<span> Full Stack  Website Developer</span></div>
+          <a href="https://wa.me/254769610343?text=Hello%20Allamano%2C%20I%20visited%20your%20website!" target="_blank">Hire Me</a>
+          <a href="https://wa.me/254769610343?text=Hello%20Allamano%2C%20I%20visited%20your%20website!" target="_blank">Let's Talk</a> 
+      
+        <div class="social-link-list">
+            <a href="https://instagram.com/m_anor_0"><i class="fab fa-instagram" style="color: red;"></i></a>
+            <a href="https://www.tiktok.com/@mano_r72"><i class="fab fa-tiktok" style="color: #171717;"></i></a>
+            <a href="https://wa.me/254769610343" target="_blank"><i class="fab fa-whatsapp" style="color: rgb(253, 254, 253);"></i></a> 
+         </div>
+        </div>
+         <!-- Right Side: Image -->
+    <div class="home-image">
+      <img src="Images/home.png" alt="home" />
+    </div>
+    </div>
+  </section>
+
+         
+  <!--about section-->
+  <section class="about" id="about">
+    <div class="max-width">
+      <div class="about-content">
+        <div class="column left">
+          <img src="Images/mg 2.png" class="img">
+        </div>
+        <div class="column right">
+          <h2 class="title">About me</h2>
+          <div class="text">I'm Allamano Kinyahwe and am a <span>Full Stack Website Developer</span></div>
+          <p>I'm a passionate Full Stack Web Developer and Graphic Designer with a strong foundation in both frontend and backend development. I specialize in creating dynamic, responsive websites and visually compelling designs that enhance user experience. My skill set spans HTML, CSS, JavaScript, PHP, and MySQL, along with modern frameworks and tools. Beyond web development, I have hands-on experience with programming languages such as Java, C++, and have also explored Machine Learning, combining creativity with technical expertise to build innovative digital solutions.</p>
+          <a href="CV/Allamano's CV.pdf" download class="cv-button">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!--Services section-->
+    <div class="services" id="services">
+      <div class="max-width">
+        <h2 class="title">My Sevices</h2>
+        <div class="services-content">
+          <section class="card-container">
+    <div class="card">
+      <i class="fas fa-code"></i>
+      <h2>Website Developing</h2>
+      <p>Web design involves creating the visual layout and user experience of websites, focusing on aesthetics, usability, and responsiveness. It blends creativity with technical skills to craft engaging and functional digital interfaces.</p>
+      <a href="https://github.com/Allamano-design">
+      <button>Learn More</button>
+      </a>
+    </div>
+    <div class="card">
+      <i class="fas fa-laptop"></i>
+      <h2>Laptop Sales</h2>
+      <p>Discover the latest high-performance laptops now on offer! Enjoy exclusive discounts on top brands featuring cutting-edge processors, sleek designs, long battery life, and powerful graphics—perfect for work, gaming, and creativity. Limited-time deals, shop now!</p>
+      <a href="https://wa.me/254769610343?text=Hello%20Allamano%2C%20I%20visited%20your%20website!" target="_blank">
+      <button>Learn More</button>
+      </a>
+    </div>
+    <div class="card">
+      <i class="fa fa-paint-brush"></i>
+      <h2>Graphic Designing</h2>
+      <p>Graphic design is the art of visually communicating ideas through typography, imagery, and layout. It combines creativity and strategy to produce impactful designs for digital and print media</p>
+      <a href="https://github.com/Allamano-design">
+      <button>Learn More</button>
+      </a>
+    </div>
+  </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--SKills Section-->
+<section class="skills" id="skills">
+    <h2 class="title">My Skills</h2>
+    <div class="skills-content">
+      <!-- Left Column -->
+      <div class="column left">
+        <h3 class="sub-title-1">Total Skills</h3>
+        <div class="bars">
+          <div class="info"><span>HTML</span><span>95%</span></div>
+          <div class="line html"></div>
+        </div>
+        <div class="bars">
+          <div class="info"><span>CSS</span><span>90%</span></div>
+          <div class="line css"></div>
+        </div>
+        <div class="bars">
+          <div class="info"><span>JavaScript</span><span>80%</span></div>
+          <div class="line js"></div>
+        </div>
+        <div class="bars">
+          <div class="info"><span>C++</span><span>79%</span></div>
+          <div class="line cpp"></div>
+        </div>
+        <div class="bars">
+          <div class="info"><span>Python</span><span>81%</span></div>
+          <div class="line py"></div>
+        </div>
+        <div class="bars">
+          <div class="info"><span>MySQL</span><span>77%</span></div>
+          <div class="line mysql"></div>
+        </div>
+        <div class="bars">
+          <div class="info"><span>PHP</span><span>78%</span></div>
+          <div class="line php"></div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+<div class="column right">
+  <div class="skill-card">
+    <h3>Professional Skills</h3>
+    <div class="professional-alt">
+      <div class="radial">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="45" class="bg" />
+          <circle cx="50" cy="50" r="45" class="progress" data-percent="90" />
+          <text x="50%" y="50%" class="percentage" text-anchor="middle" dy=".3em">90%</text>
+        </svg>
+        <p>Team Work</p>
+      </div>
+
+      <div class="radial">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="45" class="bg" />
+          <circle cx="50" cy="50" r="45" class="progress" data-percent="88" />
+          <text x="50%" y="50%" class="percentage" text-anchor="middle" dy=".3em">88%</text>
+        </svg>
+        <p>Communication</p>
+      </div>
+
+      <div class="radial">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="45" class="bg" />
+          <circle cx="50" cy="50" r="45" class="progress" data-percent="92" />
+          <text x="50%" y="50%" class="percentage" text-anchor="middle" dy=".3em">92%</text>
+        </svg>
+        <p>Creativity</p>
+      </div>
+
+      <div class="radial">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="45" class="bg" />
+          <circle cx="50" cy="50" r="45" class="progress" data-percent="85" />
+          <text x="50%" y="50%" class="percentage" text-anchor="middle" dy=".3em">85%</text>
+        </svg>
+        <p>Problem Solving</p>
+      </div>
+    </div>
+  </div>
+</div>    
+  </section>
+
+       <!--Testimonials section-->
+   <section class="testimonials-section" id="testimonials">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Testimonials & Team</h2>
+                </div>
+                <div class="testimonials-container" data-aos="fade-up">
+                    <div class="testimonial-controls">
+                        <button class="testimonial-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    </div>
+                    <div class="testimonials-slider">
+                        <div class="testimonial-slide active">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Working with Allamano is such a good decision for he is able to solve tech issues creatively and make more impressive ideas. I highly recommend him. Get contacts!"</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="Images/Jose.jpg" alt="user 1">
+                                    <div class="author-info">
+                                        <h4>Joseph Gitari</h4>
+                                        <p>Cyber Security & IT</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                             <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Great ideas are being exposed and brought up by Allamano. He has been of help in designing work. I highly recommend him for your work!"</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="Images/Ashlene.jpg" alt="user 2">
+                                    <div class="author-info">
+                                        <h4>Ashlene Chumilah</h4>
+                                        <p>Graphic Designer</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Fantastic work delivered by Allamano within good scope of time! I appreciate and recommend anyone else to get in touch with him."</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="Images/Dan.jpg" alt="user 3">
+                                    <div class="author-info">
+                                        <h4>Marcellas Indeje</h4>
+                                        <p>Financial Manager</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Allamano is a skilled and professional in his work! He designed my impressive website having met my desires. "</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="Images/Kyle.jpg" alt="user 4">
+                                    <div class="author-info">
+                                        <h4>Kyle Bradely</h4>
+                                        <p>Tech & AI Manager</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                <div class="testimonial-controls">
+                   <button class="testimonial-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+             </div>
+              </div>
+              <div class="testimonial-indicators" data-aos="fade-up">
+                    <button class="indicator active" data-index="0"></button>
+                    <button class="indicator" data-index="1"></button>
+                    <button class="indicator" data-index="2"></button>
+                </div>
+       </section>
+
+  <!--contact section start-->
+<section class="contact" id="contact">
+  <div class="max-width">
+    <h2 class="title">Contact Me</h2>
+    <div class="contact-content">
+      <!-- Left Column -->
+      <div class="column left">
+        <div class="text">Get in Touch</div>
+        <p>Hey contact me to get more information and access my services.</p>
+        <div class="icons">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <div class="info">
+              <div class="head">Name</div>
+              <div class="sub-title">Allamano Kinyahwe</div>
+            </div>
+          </div>
+
+          <div class="row">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="info">
+              <div class="head">Address</div>
+              <div class="sub-title">Nairobi, Kenya</div>
+            </div>
+          </div>
+
+          <div class="row">
+            <i class="fas fa-envelope"></i>
+            <div class="info">
+              <div class="head">Email</div>
+              <div class="sub-title">allamanojoseph00@gmail.com</div>
+            </div>
+          </div>
+
+          <div class="row">
+            <i class="fas fa-phone"></i>
+            <div class="info">
+              <div class="head">Phone</div>
+              <div class="sub-title">+254 769-610343</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Card Form -->
+      <div class="column right card-form">
+        <form action="https://formspree.io/f/mjkrqgjv" method="POST" class="styled-contact-form">
+          <div class="fields">
+            <div class="field name">
+              <input type="text" name="name" placeholder="Name" required>
+            </div>
+            <div class="field email">
+              <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="field">
+              <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="field textarea">
+              <textarea name="message" cols="30" rows="10" placeholder="Describe project..." required></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Send message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+        <div class="footer-social">
+          <h4>Follow Me</h4>
+         <div class="social-link-list">
+            <a href=" https://instagram.com/m_anor_0"><i class="fab fa-instagram" style="color: red;"></i></a>
+            <a href=" https://www.linkedin.com/in/allamano-joseph"><i class="fab fa-linkedin"style="color: blue;"></i></a>
+            <a href="https://www.tiktok.com/@mano_r72"><i class="fab fa-tiktok" style="color: #210404;"></i></a>
+            <a href="https://www.threads.net/@m_anor_0"><i class="fab fa-threads" style="color: #230404;"></i></a>
+            <a href="https://wa.me/254769610343" target="_blank"><i class="fab fa-whatsapp" style="color: rgb(23, 151, 23);"></i></a>
+            <a href="https://github.com/Allamano-design"><i class="fab fa-github" style="color: rgb(15, 15, 16);"></i></a> 
+         </div>
+    </div>
+    </div>
+  </section>
+
+  <!--footer section-->
+  <section class="footer" id="footer">
+    <span>Created By <a href="#">AllamanoCodes</a> | <span class="far fa-copyright"> 2025 All rights reserved.</span>
+  </section>
+
+<script src="script.js"></script>  
+</body>
+</html>
